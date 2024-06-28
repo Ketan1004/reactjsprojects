@@ -8,6 +8,7 @@ import Intro1 from './componets/Intro1'
 import Footer from './componets/Footer'
 import Intro2 from './componets/Intro2'
 import Intro3 from './componets/Intro3'
+import Heading from './componets/Heading'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Nav/>
+      <Heading name = "Ashish"/>
       <Promo/>
       <Intro1/>
       <Intro2/>
