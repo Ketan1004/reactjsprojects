@@ -9,6 +9,7 @@ import Footer from './componets/Footer'
 import Intro2 from './componets/Intro2'
 import Intro3 from './componets/Intro3'
 import Heading from './componets/Heading'
+import Card from './componets/Card'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,11 +18,15 @@ function App() {
     <>
       <Nav/>
       <Heading name = "Ashish"/>
+      <Card name ="Aman" info = "I am an Engineer"/>
+      <Card name ="Ashish" info = " I am a Doctor"/>
+      <Card name ="Abhay" info = " I am Soldier"/>
       <Promo/>
       <Intro1/>
       <Intro2/>
       <Intro3/>
       <Footer/>
+      
 
     </>
   )
